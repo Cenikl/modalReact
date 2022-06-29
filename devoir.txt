@@ -1,0 +1,65 @@
+mandefa requte post any jsonplaceholder after save
+requete get mikitika ligne,msokatra le formulaire de tonga de misy valeur le form 
+deployena via heroku
+
+<div class="test">
+    <div class="testing">
+      <label for="id">id</label> <br></br>
+      <input type="text" id="id" name="id" placeholder="Put your id here..."></input><br></br>
+
+      <label for="fname">Name</label> <br></br>
+      <input type="text" id="fname" name="Name" placeholder="Put your name here..."></input><br></br>
+
+      <label for="lname">username</label> <br></br>
+      <input type="text" id="uname" name="uname" placeholder="Put your username here..."></input><br></br>
+      
+      <label for="mail">email</label> <br></br>
+      <input type="email" id="mail" name="mail" placeholder="Put your email here..."></input><br></br>
+
+      <label for="uname">address</label> <br></br>
+      <input type="text" id="uname" name="uname" placeholder="Put your address here..."></input><br></br>
+
+      <label for="phone">phone</label> <br></br>
+      <input type="tel" id="phone" name="phone" placeholder="Put your phone number here..."></input><br></br>
+
+      <label for="website">website</label> <br></br>
+      <input type="url" id="website" name="website" placeholder="Put your website here..."></input><br></br>
+
+      <label for="company">company</label> <br></br>
+      <input type="text" id="company" name="company" placeholder="Put your company here..."></input><br></br><br></br>
+
+      <button class="btnchange">Save</button>
+      <button>Cancel</button>
+    </div>
+    </div>
+
+
+    <div className={sidebarClass}>
+      <Navbar toggleSidebarClass={toggleSidebarClass} />
+      <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+          <Sidebar />
+        </div>
+        <div id="layoutSidenav_content">
+          <main>
+            <div className="container-fluid px-4">
+              <h1 className="mt-4">Tables</h1>
+              <Breadcrumb />
+              <Card>
+                DataTables is a third party plugin that is used to generate the
+                demo table below. For more information about DataTables, please
+                visit the
+                <a target="_blank" href="https://datatables.net/">
+                  official DataTables documentation
+                </a>
+                .
+              </Card>
+              <Card title="DataTable Example">
+                <EmployeeList items={employees} />
+              </Card>
+            </div>
+          </main>
+          <Footer />
+        </div>
+      </div>
+    </div>
