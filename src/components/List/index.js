@@ -38,7 +38,7 @@ export function EmployeeList(props) {
             entries per page
           </label>
         </div>
-        <button ref={outside} class="adding" onClick={() => setIsOpen(!isOpen)}>Add</button>
+        <button class="adding" onClick={() => setIsOpen(!isOpen)}>Add</button>
       {isOpen ? (
         <div class="test">
         <div class="testing" >
